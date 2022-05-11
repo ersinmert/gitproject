@@ -4,7 +4,6 @@
 /Users/sahabt/Desktop/gitproject/bin/Debug/net5.0/gitproject.runtimeconfig.json
 /Users/sahabt/Desktop/gitproject/bin/Debug/net5.0/gitproject.runtimeconfig.dev.json
 /Users/sahabt/Desktop/gitproject/bin/Debug/net5.0/gitproject.dll
-/Users/sahabt/Desktop/gitproject/bin/Debug/net5.0/ref/gitproject.dll
 /Users/sahabt/Desktop/gitproject/bin/Debug/net5.0/gitproject.pdb
 /Users/sahabt/Desktop/gitproject/bin/Debug/net5.0/Microsoft.OpenApi.dll
 /Users/sahabt/Desktop/gitproject/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
@@ -18,7 +17,6 @@
 /Users/sahabt/Desktop/gitproject/obj/Debug/net5.0/gitproject.MvcApplicationPartsAssemblyInfo.cs
 /Users/sahabt/Desktop/gitproject/obj/Debug/net5.0/gitproject.MvcApplicationPartsAssemblyInfo.cache
 /Users/sahabt/Desktop/gitproject/obj/Debug/net5.0/staticwebassets/gitproject.StaticWebAssets.Manifest.cache
-/Users/sahabt/Desktop/gitproject/obj/Debug/net5.0/staticwebassets/gitproject.StaticWebAssets.xml
 /Users/sahabt/Desktop/gitproject/obj/Debug/net5.0/scopedcss/bundle/gitproject.styles.css
 /Users/sahabt/Desktop/gitproject/obj/Debug/net5.0/gitproject.RazorTargetAssemblyInfo.cache
 /Users/sahabt/Desktop/gitproject/obj/Debug/net5.0/gitproject.csproj.CopyComplete
@@ -26,3 +24,6 @@
 /Users/sahabt/Desktop/gitproject/obj/Debug/net5.0/ref/gitproject.dll
 /Users/sahabt/Desktop/gitproject/obj/Debug/net5.0/gitproject.pdb
 /Users/sahabt/Desktop/gitproject/obj/Debug/net5.0/gitproject.genruntimeconfig.cache
+/Users/sahabt/Desktop/gitproject/bin/Debug/net5.0/gitproject.StaticWebAssets.xml
+/Users/sahabt/Desktop/gitproject/bin/Debug/net5.0/gitproject
+/Users/sahabt/Desktop/gitproject/obj/Debug/net5.0/refint/gitproject.dll

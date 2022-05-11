@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "i+x9op5idkEe44LUXe6h45f5BTK3ZKG41Do13ywf0oqI4wqYoZ/uwxymEpz2wQmyavCem3gs0X0s/8LPkd/FCQ==",
+  "dgSpecHash": "Y2QjleW3fLIwExyq07qDXB7dDca/OvaXfIaEq+37UUHXbGhydS8O3YrrXtFgrnzA5TJLCO5KpgHUlKNpRF2dTQ==",
   "success": true,
   "projectFilePath": "/Users/sahabt/Desktop/gitproject/gitproject.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,8 @@
     "/Users/sahabt/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "/Users/sahabt/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "/Users/sahabt/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "/Users/sahabt/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "/Users/sahabt/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "/Users/sahabt/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }
