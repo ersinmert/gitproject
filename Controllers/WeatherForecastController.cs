@@ -16,5 +16,11 @@ namespace gitproject.Controllers
                 Summary = "25 ekim 2022 hava durumu"
             });
         }
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            return Ok("GetAll Weather");
+        }
     }
 }

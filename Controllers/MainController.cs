@@ -10,5 +10,10 @@ namespace gitproject.Controllers
         public IActionResult Get(){
             return Ok("ok");
         }
+
+        [HttpGet]
+        public IActionResult GetAll(){
+            return Ok("All Ok");
+        }
     }
 }
