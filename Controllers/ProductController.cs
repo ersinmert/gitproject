@@ -12,13 +12,14 @@ namespace gitproject.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new {
+            return Ok(new
+            {
                 Name = "Iphone 12",
                 Description = "Cep Teefonu"
             });
         }
 
-        [HttpPost]
+        [HttpPost("all")]
         public IActionResult Add()
         {
             return Ok("new Product Added!");
