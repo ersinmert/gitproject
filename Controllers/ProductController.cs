@@ -17,5 +17,11 @@ namespace gitproject.Controllers
                 Description = "Cep Teefonu"
             });
         }
+
+        [HttpPost]
+        public IActionResult Add()
+        {
+            return Ok("new Product Added!");
+        }
     }
 }
