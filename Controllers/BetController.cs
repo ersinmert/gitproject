@@ -28,5 +28,22 @@ namespace gitproject.Controllers
                 Date = date
             });
         }
+
+        [HttpGet("all")]
+        public IActionResult GetAll()
+        {
+            return Ok(new[]{
+                new
+                {
+                    Name = "Manchester - Real Madrid",
+                    Date = new DateTime(2022, 6, 20)
+                },
+            new
+            {
+                Name = "Liverpool - Man City",
+                Date = new DateTime(2022, 6, 23)
+            }
+            }.ToList());
+
+        }
     }
-}
