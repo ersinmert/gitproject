@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace gitproject.Controllers
 {
     [Route("[controller]")]
-    public class BetController : Controller
+    public class BetController : ControllerBase
     {
         [HttpGet]
         public IActionResult Get()
@@ -16,6 +16,16 @@ namespace gitproject.Controllers
             {
                 Name = "Manchester - Real Madrid",
                 Date = new DateTime(2022, 6, 20)
+            });
+        }
+
+        [HttpPost]
+        public IActionResult Add(string name, DateTime date)
+        {
+            return Ok(new
+            {
+                Name = name,
+                Date = date
             });
         }
     }
