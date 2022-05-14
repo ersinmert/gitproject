@@ -17,7 +17,7 @@ namespace gitproject.Controllers
             });
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public IActionResult GetAll()
         {
             return Ok("GetAll Weather");
