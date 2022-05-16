@@ -26,5 +26,11 @@ namespace gitproject.Controllers
         {
             return Ok("GetAll");
         }
+
+        [HttpPost]
+        public IActionResult Add()
+        {
+            return Ok("added");
+        }
     }
 }
