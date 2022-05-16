@@ -10,8 +10,9 @@ namespace gitproject.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new WeatherForecast{
-                Date = new DateTime(2022,10,25),
+            return Ok(new WeatherForecast
+            {
+                Date = new DateTime(2022, 10, 25),
                 TemperatureC = 10,
                 Summary = "25 ekim 2022 hava durumu"
             });
@@ -21,6 +22,12 @@ namespace gitproject.Controllers
         public IActionResult GetAll()
         {
             return Ok("GetAll Weather");
+        }
+
+        [HttpPost]
+        public IActionResult Add()
+        {
+            return Ok("Added!");
         }
     }
 }
