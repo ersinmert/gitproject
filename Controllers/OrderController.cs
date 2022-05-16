@@ -21,5 +21,16 @@ namespace gitproject.Controllers
         {
             return Ok("GetAll executed!");
         }
+
+        [HttpPost]
+        public IActionResult Add(string name, decimal price)
+        {
+            //Db operations
+            return Ok(new
+            {
+                Name = name,
+                Price = price
+            });
+        }
     }
 }
