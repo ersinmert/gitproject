@@ -5,15 +5,24 @@ namespace gitproject.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class MainController: ControllerBase{
+    public class MainController : ControllerBase
+    {
         [HttpGet]
-        public IActionResult Get(){
+        public IActionResult Get()
+        {
             return Ok("ok");
         }
 
         [HttpGet("GetAll")]
-        public IActionResult GetAll(){
+        public IActionResult GetAll()
+        {
             return Ok("All Ok");
+        }
+
+        [HttpPost]
+        public IActionResult Add()
+        {
+            return Ok("Added!!");
         }
     }
 }
