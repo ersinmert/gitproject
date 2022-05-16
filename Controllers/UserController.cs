@@ -20,5 +20,11 @@ namespace gitproject.Controllers
                 Birthdate = new DateTime(1991, 1, 1)
             });
         }
+
+        [HttpGet("getAll")]
+        public IActionResult GetAll()
+        {
+            return Ok("GetAll");
+        }
     }
 }
