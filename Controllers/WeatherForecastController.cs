@@ -24,8 +24,6 @@ namespace gitproject.Controllers
             return Ok("GetAll Weather");
         }
 
-
-
         [HttpPost]
         public IActionResult Add()
         {
