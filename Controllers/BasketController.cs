@@ -15,5 +15,11 @@ namespace gitproject.Controllers
         {
             return Ok("Baseket get");
         }
+
+        [HttpGet("getAll")]
+        public IActionResult GetAll()
+        {
+            return Ok("Get All");
+        }
     }
 }
