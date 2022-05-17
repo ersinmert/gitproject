@@ -32,5 +32,11 @@ namespace gitproject.Controllers
         {
             return Ok("added");
         }
+
+        [HttpPut]
+        public IActionResult Edit()
+        {
+            return Ok("Edited");
+        }
     }
 }
