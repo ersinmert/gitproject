@@ -15,11 +15,5 @@ namespace gitproject.Controllers
         {
             return Ok("get");
         }
-
-        [HttpPost]
-        public IActionResult Add()
-        {
-            return Ok("Added");
-        }
     }
 }
